@@ -27,6 +27,7 @@
         @endif
 
 <h3 class="jumbotron"><i class="glyphicon glyphicon-upload"></i> Laravel Multiple File Upload</h3> 
+<h2>laravel magazine <h2>
 <form method="post" action="{{url('update')}}" enctype="multipart/form-data">
   {{csrf_field()}}
         <div class="input-group control-group increment" >
